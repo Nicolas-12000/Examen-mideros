@@ -202,3 +202,5 @@ self.onmessage = function (e: MessageEvent) {
   }
   if (m.type === "frame") procesar(parsear(m.buf));
 };
+
+export {};

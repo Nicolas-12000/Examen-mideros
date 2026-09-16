@@ -50,3 +50,5 @@ self.onmessage = function (e: MessageEvent) {
     postMessage({ type: "csvOk", csv: out, id: m.id });
   }
 };
+
+export {};
